@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/regis">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/paccno"
+        android:layout_marginTop="30dp"
+        android:hint="Account no"
+        android:inputType="number"
+        android:padding="10dp"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/rounded_border"
+        android:layout_height="wrap_content"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/ppin"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:hint="Pin"
+        android:padding="10dp"
+        android:background="@drawable/rounded_border"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/pamount"
+        android:layout_marginTop="30dp"
+        android:hint="Amount"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@drawable/rounded_border"
+        android:layout_height="wrap_content"
+        />
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/pdate"-->
+        <!--android:hint="Date"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@drawable/rounded_border"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <Button
+
+        android:id="@+id/pin_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rc_rectangle"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="SUBMIT"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/view_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rc_rectangle"
+        android:gravity="center"
+        android:backgroundTint="@color/colorsBacground"
+        android:textColor="@android:color/white"
+        android:text="View"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
